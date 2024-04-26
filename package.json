@@ -1,15 +1,13 @@
 {
     "name": "react-carousel-infinite-scroll-ts",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "main": "dist/index.js",
     "files": [
         "dist/**/*"
     ],
     "exports": {
-        ".": {
-            "types": "./dist/index.d.ts",
-            "default": "./dist/index.js"
-        }
+        ".": "./dist/index.js",
+        "./dist/*": "./dist/*"
     },
     "scripts": {
         "start": "react-scripts start",
