@@ -37,4 +37,4 @@ export var carouselData = [
     { src: 'https://fairtradesafaris.com/wp-content/uploads/2021/04/1044927_FTS-15birds-5_042121-300x300.png' },
     { src: 'https://petkingdom.org/wp-content/uploads/2024/04/F-Cavpo-176-300x300.jpg' },
     { src: 'https://www.animalkingdomaz.com/wp-content/uploads/adult-pomsky-1-300x300.jpg' },
-]
+];

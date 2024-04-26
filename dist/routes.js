@@ -1,1 +1,1 @@
-export var routes = {}
+export var routes = {};
