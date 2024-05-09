@@ -42,13 +42,9 @@ const CarouselContainer: React.FC<Props> = ({
 
         if (nextIndex >= items.length) {
             // add new items in the array to simulate infinite scrolling
-            const endItems = items.slice(currentIndex, items.length)
-            const remainingItemsCount = visibleElementsCount - endItems.length
-            const startItems = items.slice(0, remainingItemsCount)
-            const newItems = [...startItems, ...endItems]
+            const newItems = items.slice(currentIndex, items.length)
 
             setVisibleElements((prevItems) => [...prevItems, ...newItems])
-            setCurrentIndex(remainingItemsCount)
 
             // reduce length of the items array
             if (visibileElements.length > items.length * 2) {
